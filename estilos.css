@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+header {
+    background-color: rgb(191, 146, 233);
+}
+
+
+h1 {
+    background-color: rgb(191, 146, 233);
+    margin: 10px 0px;
+}
+
+.ancho {
+    width: 100%;
+    }
+
+ .margen {
+    margin: 10px 0px;
+    }
+
+ #margen {
+       margin: px;
+}
+.margen-interno {
+    padding: 10px 20px;
+}
+.margenes{ 
+    margin: 20px 50px;
+}
+
+.menu {
+    width: 120%;
+}
+  
+     .boton {
+        border-radius: 5px;
+        background-color:antiquewhite;
+        padding: 7px;
+        margin: 10px ;
+     }
+  
+    .nosotros {
+        width: 60%;
+        height: 70%;
+        padding: 20px 20px 500px 20px;
+        text-align: justify;
+        line-height: 1.6;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .izquierda {
+      text-align: left;
+      padding: 5px 10px;
+      margin: 10px 0px;
+    }
+    .derecha {
+        text-align: right;
+        margin:0px 20px 10px 0px;
+    }
+   
+     h4{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 10px 0px 10px 10px;
+        padding: 10px 0px ;
+        }
+  
+   .centro {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(153, 153, 153);
+    padding: 10px 10px; 
+    margin-bottom: 20px;
+    }
+
+    .carrito-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: flex-end;
+    }
+    
+
+.color {
+    font-weight:bolder;
+    background-color:rgb(240, 224, 204)
+}
+
+.galeria {
+    display: flex;
+    flex-direction:column reverse;
+    justify-content:space-between;
+    margin-bottom: 25px;
+    background-color: antiquewhite;
+}
+
+ 
+.imagen {
+border-radius: 20px;
+margin: 20px 50px;
+padding: 5px 5px;
+}
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+    padding-bottom: 50px;
+
+}
+
+.formulario {
+    margin: 10px 10px;
+    padding: 20px 10px 200px 10px;
+}
